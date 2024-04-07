@@ -12,7 +12,7 @@ var settings = {
 };
 
 /*
- * RequestAnimationFrame polyfill by Erik M?ller
+ * RequestAnimationFrame polyfill by LOUIS
  */
 (function() {
   var b = 0;
@@ -224,7 +224,7 @@ var ParticlePool = (function() {
     }
     context.closePath();
     // create the fill
-    context.fillStyle = "#ea80b0";
+    context.fillStyle = "#dc143c";
     context.fill();
     // create the image
     var image = new Image();
