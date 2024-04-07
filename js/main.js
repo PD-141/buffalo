@@ -11,7 +11,6 @@ const canvas = c1.context;
 
 // $("body").append(tela);
 $("body").append(c1.canvas);
-
 class Particle1 {
   constructor(canvas) {
     this.random = Math.random();
@@ -20,7 +19,6 @@ class Particle1 {
     this.progress = 0;
     this.canvas = canvas;
     this.life = 1000 + Math.random() * 3000;
-
     this.x =
       $(window).width() / 2 + (Math.random() * 20 - Math.random() * 20);
     this.y = $(window).height();
@@ -30,7 +28,6 @@ class Particle1 {
     this.direction = this.random > 0.5 ? -1 : 1;
     this.radius = 1 + 3 * this.random;
     this.color = "#ff417d";
-
     this.ID = setInterval(
       function() {
         microparticles.push(
